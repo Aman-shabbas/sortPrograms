@@ -1,4 +1,5 @@
 const appleProducts = [
+  "macBook cleaner",
   "MacBook Air",
   "MacBook Pro",
   "iMac",
@@ -40,14 +41,7 @@ function range (rngStart, rngEnd, step) {
   return steps;
 }
 
-const compareStringAndNumber = function (a, b) {
-
-}
-
 const compareLength = function (a, b) {
-  if (a.length === b.length) {
-    return compareStringAndNumber(a, b);
-  }
   return a.length - b.length;
 }
 
